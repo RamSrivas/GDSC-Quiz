@@ -90,7 +90,7 @@ if(choice=='e'):
 else:
     pass
 
-wiz=class_quiz.quiz_flow()
+wiz=quiz_flow()
 
 print("Welcome to the quiz!")
 wiz.q_num=int(input("Enter the number of questions in the quiz: "))
