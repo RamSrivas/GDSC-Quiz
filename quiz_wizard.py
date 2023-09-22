@@ -115,7 +115,7 @@ for i in randomlist:
 
 while(True):
     print("\npress:\n1. Give Response \n2. Mark For Review\n3. Unmark for review \n4. Next Question \n5. Previous question \n6. Move to Question Number \n7. Clear Response \n8. Clear all Response\n9. Show questions marked for review\n10. Submit")
-    print("\n"wiz.currentQuesNumber)
+    print("\n", wiz.currentQuesNumber)
     print(question_bank.question_list[wiz.l[(wiz.currentQuesNumber)-1][0]]["text"],"\n")
     ch_1=int(input())
     
@@ -148,7 +148,7 @@ while(True):
         case 6:
             print("Enter the Number You want to move")
             x=int(input())
-            wiz.move_to_question_num
+            wiz.move_to_question_num()
         case 7:
             wiz.clear_response()
         case 8:
